@@ -1,0 +1,860 @@
+	body {
+		margin:0;
+		background: #fff;
+		font-size: 16px;
+		font-family: "Lato", helvetica, arial sans-serif;
+		color: #fff;
+	}
+	
+	div {
+		display: block; 
+	} 
+
+
+/* HEADER */
+
+	header {
+		background: #E44128;
+		height: 270px;
+		width: 100%;
+		position: fixed;
+		z-index: -10;
+		top: 0;
+	}
+	
+	.headcontainer {
+		max-width: 500px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	
+	.logo {
+		border-radius: 50%;
+		width: 58px;
+		height: 58px; 
+		background-color: #fff;
+		position: absolute;
+		left:50%;
+		margin-left: -27px;
+		top:50px;
+	}
+	
+	.logo_iam  {
+		font-size: 4em;
+		font-weight: 300;
+		letter-spacing: .15em;
+		color: #E44128;
+		margin: -12px 0 0 2px;
+	}
+	
+	.logo:hover {
+		margin-top: -3px;
+	}
+	
+	.name {
+		font-family: "Raleway", helvetica, arial sans-serif;
+		font-size: 3.15em;
+		text-transform: uppercase;
+		letter-spacing: .16em;
+		margin-top: 115px;
+		white-space: nowrap;
+	}
+	
+	.line {
+		border-bottom: 2px solid #fff;
+		position: relative;
+		margin-top: -20px;
+	}
+	
+	header h2 {
+		font-size: 1.1em;
+		font-weight: 300;
+		letter-spacing: .15em;
+	}
+
+/* CONTENT */
+
+	.contentwrap {
+		background: #fff;
+		width: 100%;
+		position: absolute;
+		z-index: 5;
+		top:270px;
+	}
+
+/* NAV */
+	
+	.nav {
+		text-align: center;
+		background: #fff;
+		width: 100%;
+		padding: 20px 0 30px 0;
+		box-shadow: 1px 1px 3px #ddd;
+		z-index: 9999;
+	}
+	
+	.nav a {
+		font-weight: 700;
+		font-size: 0.75em;
+		color: #444;
+		text-transform: uppercase;
+		margin: 0 40px;
+		
+	}
+	
+	.notactive a:hover {
+		border-bottom: 2px solid #444;
+		padding-bottom: 2px;
+	}
+	
+	
+	.active {
+		padding-bottom: 14px;
+		cursor: default;
+	}
+	
+	.triangle_work {
+		width: 0px;
+		height: 0px;
+		border-style: solid;
+		border-width: 6px 6px 0 6px;
+		border-color: #444444 transparent transparent transparent;
+		position: absolute;
+		text-indent: -9999px;
+		margin-left: 77px;
+		margin-top: 3px;
+		-webkit-transform:rotate(360deg);
+	}
+	
+	.triangle_about {
+		width: 0px;
+		height: 0px;
+		border-style: solid;
+		border-width: 6px 6px 0 6px;
+		border-color: #444444 transparent transparent transparent;
+		position: absolute;
+		text-indent: -9999px;
+		margin-left: 68px;
+		margin-top: 3px;
+		-webkit-transform:rotate(360deg);
+	}
+	
+	.nav span {
+		border-bottom: 2px solid #444; 
+		padding-bottom: 2px;
+	}
+
+/*  WORK LAYOUT CONTROL   */
+
+	.work {
+		width: 70%; 
+	}
+	
+	.text {
+		width: 25%;
+	}
+
+
+/* WORK INFO TYPOGRAPHY */
+
+	
+	h3 {
+		font-family: "Raleway", helvetica, arial, sans-serif;
+		font-weight: 700;
+		font-size: 1em;
+		color: #444;
+		text-transform: uppercase;
+		letter-spacing: .15em;
+		margin-top: 2px; 
+	}
+	
+	p {
+		font-weight: 300;
+		font-size: 0.825em;
+		color: #444;
+		line-height: 1.5em;
+		letter-spacing: .1em;
+		margin-top: -5px;
+	}
+	
+	h4 {
+		font-size: 0.7em;
+		color: #444;
+		letter-spacing: .1em;
+		margin-bottom: 25px;
+	}
+	
+	.btn {
+		font-family: "Raleway", helvetica, arial, sans-serif;
+		font-weight: 700;
+		font-size: 0.7em;
+		text-transform: uppercase;
+		letter-spacing: .15em;
+		background-color: #E44128;
+		padding: 8px 15px;
+		border-radius: 5px;
+		box-shadow: 0px 2px 0px #bcbcbc;
+		margin-top: 30px;
+	}
+	
+	.btn:hover {
+		background-color: #444;
+	}
+
+/* WORK CONTENT */
+
+	.grey {
+		background-color: #f4f4f4;
+		width: 100%;
+	}
+	
+	.contain {
+		padding: 15px 35px 20px 40px;
+		margin: 0 auto;
+	}
+	
+	img {
+		max-width: 100%;
+		margin-left:20px;
+	}
+
+/*  FOOTER  */
+
+	footer{
+		text-align: center;
+		margin: 35px auto;
+		z-index: 999;
+		height: 100px;
+	}
+	
+	a.twitter { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle;  background: url(twitter.png) left bottom no-repeat; }
+	a.dribbble { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(dribbble.png) left bottom no-repeat; }
+	a.rss { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(rss.png) left bottom no-repeat; }
+	a.pinterest { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(pinterest.png) left bottom no-repeat; }
+	a.flickr { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(flickr.png) left bottom no-repeat; }
+	a.forrst { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(forrst.png) left bottom no-repeat; }
+	a.vimeo { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(vimeo.png) left bottom no-repeat; }
+	a.linkedin { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(linkedin.png) left bottom no-repeat; }
+	a.facebook { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(facebook.png) left bottom no-repeat; }
+	a.email { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(email.png) left bottom no-repeat; }
+	a.github { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(github.png) left bottom no-repeat; }
+	a.behance { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(behance.png) left bottom no-repeat; }
+	a.googleplus { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(googleplus.png) left bottom no-repeat; }
+	a.youtube { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(youtube.png) left bottom no-repeat; }
+	a.skype { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(skype.png) left bottom no-repeat; }
+	a.tumblr { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; background: url(tumblr.png) left bottom no-repeat; }
+
+
+	/* SOCIAL */
+	
+	.social_contain {
+		margin: 0 auto;
+		padding: 0 25px;
+	}
+	
+	.social {
+		font-weight: 700;
+		font-size: 0.7em;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		color: #444;
+		margin-top: 30px;
+	}
+	/*
+	.social a:hover {
+		border-bottom: 2px solid #444;
+		padding-bottom: 3px;
+	}
+	*/
+	
+	.social li {
+	 	padding: 0 15px;
+ 	}
+ 
+ 	.social li a {
+	 	color:#444;
+ 	}
+ 	
+	
+/*  COPYRIGHT  */
+	
+	#copyright {
+		font-weight: 700;
+		font-size: 0.7em;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		color: #444;
+		padding: 10px 0;
+		margin-top: 20px;
+		background-color: #f4f4f4;
+	}
+
+/*  ABOUT ME PAGE   */
+
+/* CONTENT WRAP */
+	
+	.about_wrap {
+		max-width: 1060px;
+		position: relative;
+		margin: 25px auto 0 auto;
+		padding: 0 30px;
+		
+	}
+	
+	
+	.me_img {
+		width: 25%;
+		margin: 0 auto;
+		float: left; margin-right: 5%; margin-bottom: 5%; margin-top: 15px; border: solid 1px #333333;
+	}
+	
+	
+	#hello {
+		width: 55%;
+		float: none;
+		margin: -25px auto 0 auto;
+	}
+	
+	
+	h5 {
+		font-family: "Raleway", helvetica, arial, sans-serif;
+		font-weight: 700;
+		font-size: 0.8em;
+		color: #444;
+		text-transform: uppercase;
+		letter-spacing: .15em;
+	}
+	
+	.email_me {
+		font-weight: 300;
+		font-size: 0.95em;
+		color: #444;
+		letter-spacing: .1em;
+		padding-left: 43px;
+	}
+	
+	.email_me:hover {
+		color: #E44128;
+	}
+	.skills {
+		font-weight: 300;
+		font-size: 0.825em;
+		color: #444;
+		letter-spacing: .1em;
+		margin-top: -15px;
+		width: 100%;
+		
+	}
+	
+	.things {
+		text-align: center;
+		margin-bottom:25px;
+	}
+	
+	.cv_experience{
+		float: left;
+		padding-left: 90px;
+		margin-top: -10px;
+	}
+	
+	.cv_company {
+		margin: -3px 0 0 90px;
+	}
+	
+	.cv_title {
+		font-size: 0.7em;
+		color: #E44128;
+		margin: 3px 0 0 90px;
+	}
+	
+	
+	.cv_date {
+		float: left;
+		padding: 0;
+	}
+	
+	.cv_line {
+		border-bottom: 2px solid #f4f4f4;
+		padding-bottom: 5px;
+	}
+	
+	.cv_list {
+		list-style: disc inside; 
+		font-weight: 300;
+		font-size: 0.825em;
+		color: #444;
+		letter-spacing: .1em;
+		margin-top: -10px;
+		padding-left: 90px;
+	}
+	
+	.cv_list_title {
+		font-family: "Raleway", helvetica, arial, sans-serif;
+		font-weight: 700;
+		font-size: 1em;
+		color: #444;
+		letter-spacing: .15em;
+		list-style: none;
+		margin-bottom: 5px;
+	}
+	
+	.cv_list li {
+		display: list-item;
+		line-height: 1.5em;
+		list-style: outside;
+	}
+	
+	.reference {
+		font-weight: 300;
+		font-size: 0.825em;
+		color: #444;
+		letter-spacing: .1em;
+		padding-left: 90px;
+	}
+	
+	.reference:hover{
+		color: #E44128;
+	}
+	
+	.reference_p {
+		padding-left: 90px;
+		margin-top: 3px;
+	}
+	
+	.clearfix {
+		clear: both;
+	}
+	
+	.cv_btn {
+		text-align: center;
+	}
+	
+	.intro_email {
+		color: #444;
+		font-weight: 700;
+	}
+	
+	.intro_email:hover {
+		color: #E44128;
+		text-decoration: underline;
+	}
+	
+	
+/*  SECTIONS  */
+	
+	.section {
+		clear: both;
+		padding: 0 0 15px 0;
+		margin: 0 0 15px 0;
+	}
+
+/*  GROUPING  */
+	
+	
+	.group:before,
+	.group:after {
+	    content:"";
+	    display:table;
+	}
+	.group:after {
+	    clear:both;
+	}
+	.group {
+	    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+	}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+	.col {
+		display: block;
+		float:left;
+		margin: 1% 0 1% 1.6%;
+	}
+
+	.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+/*  GRID OF THREE   */
+	
+	.span_3_of_3 {
+		width:100%; 
+		text-align: center;;
+	}
+	
+	
+	.span_2_of_3 {
+		width: 65%; 
+	}
+	
+	.span_1_of_3 {
+		width: 30%; 
+	}
+
+
+/*  GRID OF FOUR   */
+
+	.span_1_of_4 {
+		width: 24%; 
+		display: inline-block;
+		margin: 0;
+		padding-left: 1.25%;
+	}
+
+
+/*  GRID OF FIVE   */
+	
+		
+	.span_5_of_5 {
+		width: 100%;
+		text-align: center;
+	}
+	
+	.span_3_of_5 {
+	  	width: 55.36%; 
+	  	margin-right: 4%;
+	}
+	
+	.span_2_of_5 {
+	  	width: 39.04%;
+	}
+	
+	.span_1_of_5 {
+	  	width: 18.72%;
+	}
+
+
+/*  MEDIA QUERIES   */
+
+/*  1650 PIXELS */
+
+@media only screen and (min-width: 1650px) {
+	
+	img {
+		margin-left: 60px;
+	}
+	
+	.work {
+		width: 70%; 
+	}
+	
+	.text {
+		width: 25%;
+	}
+	
+	.contain {
+		padding-left: 50px;
+	}
+
+}
+
+/*  950 PIXELS */
+
+@media only screen and (max-width: 950px) {
+
+	.work {
+		width: 100%; 
+		padding: 0;
+		margin: 0;
+	}
+
+	.text {
+		width: 100%; 
+	}
+	
+	h4 {
+	margin: 10px 0 15px 0;
+	}
+	
+	img {
+		margin: 20px 0 0 0;
+	}
+	
+	.btn {
+		margin-top: 5px;
+	}
+}
+
+
+/*  750 PIXELS */
+
+@media only screen and (max-width: 750px) {
+
+	.span_1_of_4 {
+		width: 90%; 
+		text-align: center;
+		margin: 10px auto;
+		float: none;
+	}
+	
+	#skills {
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	#hello {
+		width: 90%;
+	}
+	
+	/*.me_img {
+		width: 45%;
+		margin: 0 auto;
+	}*/
+	
+	.things {
+		margin-bottom: 10px;
+	}
+	
+	
+	.span_3_of_5 {
+	  	width: 100%; 
+	}
+	
+	.span_2_of_5 {
+	  	width: 100%;
+	}
+	
+	.span_1_of_5 {
+	  	width: 100%;
+	}
+	
+}
+
+/*  480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+	
+	.work {
+		width: 100%; 
+	}
+
+	.text {
+		width: 100%; 
+	}
+	
+	#top {
+		display: none;
+	}
+	
+	.contain {
+		padding: 0 20px;
+	}
+	
+	
+	
+	/* HEADER */
+		
+	header {
+		height: 190px;
+	}
+	
+	.headcontainer {
+		max-width: 350px;
+	}
+	
+	.logo {
+		width: 45px;
+		height: 45px; 
+		margin-left: -27px;
+		top:25px;
+	}
+	
+	.logo_iam  {
+		font-size: 3em;
+		font-weight: 300;
+		letter-spacing: .1em;
+		margin: -8px 0 0 1px;
+	}
+
+	.name {
+		font-size: 2.5em;
+		letter-spacing: .1em;
+		margin-top: 75px;
+	}
+	
+	header h2 {
+		font-size: .95em;
+		letter-spacing: .1em;
+	}
+
+	/* CONTENT */
+
+	.contentwrap {
+		top:190px;
+	}
+	
+	/* NAV */
+	
+	.nav {
+		text-align: center;
+		background: #fff;
+		width: 100%;
+		padding: 10px 0 20px 0;
+		box-shadow: 1px 0px 4px #ccc;
+	}
+	
+	.nav a {
+		font-size: 0.7em;
+		margin: 0 20px;
+	}
+	
+	.triangle_work {
+		margin-left: 55px;
+		margin-top: 3px;
+		border-width: 4px 4px 0 4px;
+	}
+	
+	.triangle_about {
+		margin-left: 47px;
+		margin-top: 3px;
+		border-width: 4px 4px 0 4px;
+	}
+		
+	/* WORK INFO TYPOGRAPHY */
+
+	h3 {
+		font-size: .95em;
+		letter-spacing: .12em;
+		margin-top: 15px; 
+	}
+	
+	p {
+		font-size: 0.78em;
+		line-height: 1.4em;
+		letter-spacing: .09em;
+	}
+	
+	h4 {
+		font-size: 0.7em;
+		letter-spacing: .09em;
+	}
+	
+	.btn {
+		font-size: 0.65em;
+		letter-spacing: .125em;
+		padding: 8px 13px;
+	}
+
+	
+	
+	/*  FOOTER  */
+	
+	.social_contain {
+		margin: 0 auto;
+	}
+	
+	.social {
+		margin-top: 30px;
+	}
+	
+	.social_gap {
+		margin-top: 10px;
+	}
+	
+	/*  ABOUT  */
+
+	#skills {
+		font-size: 0.9em;
+		line-height: 1.4em;
+		letter-spacing: .09em;
+	}
+	
+	#hello {
+		width: 100%;
+	}
+	
+	.span_1_of_4 {
+		width: 100%; 
+	}
+	
+	.cv_experience {
+		margin-top: 0;
+	}
+	
+	/*.me_img {
+		width: 55%;
+		clear: both;
+		margin: 0 auto;
+	}*/
+}
+
+/*  320 PIXELS */
+
+@media only screen and (max-width: 320px) {
+	
+	/* HEADER */
+	
+	.headcontainer {
+		max-width: 300px;
+	}
+	
+	.name {
+		font-size: 2.2em;
+		letter-spacing: .08em;
+	}
+	
+	/*.me_img {
+		width: 70%;
+		clear: both;
+		margin: 0 auto;
+	}*/
+}
+
+
+
+
+/* UNIVERSAL */
+	a {
+		text-decoration: none;
+		color: #fff;
+	}
+	
+	.social li, nav li {
+		display: inline-block;
+		list-style: none;
+	}
+	
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.fade {
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	
+	
+/* miscellanous */
+	
+	.h-zigzag { /* Horizontal */
+	background:linear-gradient(-135deg, #E44128 5px, transparent 0) 0 5px,
+        	linear-gradient(135deg, #E44128 5px, #fff 0) 0 5px;
+    background-color: #E44128;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 10px 10px;
+	}
+
+	.h-zigzag-grey { /* Horizontal */
+	background:linear-gradient(-135deg, #f4f4f4 5px, transparent 0) 0 5px,
+        	linear-gradient(135deg, #f4f4f4 5px, #fff 0) 0 5px;
+    background-color: #f4f4f4;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 10px 10px;
+	}
+	
+		.h-zigzag-white { /* Horizontal */
+	background:linear-gradient(135deg, #f4f4f4 5px, transparent 0) 0 5px,
+        	linear-gradient(-135deg, #f4f4f4 5px, #fff 0) 0 5px;
+    background-color: #f4f4f4;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 10px 10px;
+	}
